@@ -8,6 +8,9 @@ Keras
 Matplotlib
 Jupyter
 ```
+> [!NOTE]
+> For widest compatibily, this environment uses only CPU resources, No GPU required!
+
 # Coursera Basic Image Classification with Tensorflow
 In this specific example, I'll be opening and running the Jupyter Notebook from the [Basic Image Classification with Tensorflow Course](https://www.coursera.org/learn/tensorflow-beginner-basic-image-classification/home/info).
 
@@ -33,13 +36,21 @@ Scroll to the bottom of the page and download the appropriate installer for Wind
 > [!IMPORTANT]
 > This may work with another v3.9.x or v3.10.x as well; however, it will not work with v3.11.x and later
 
-After a successfull Python install, we will first create a new virtual environment for the ML Packages:
-
 It's easist to perform the remaining steps in a Windows Commmand Window by pressing [Windows]+R then [ENTER] to run CMD
 
 Use CD to make your default directory the one you created above, mine is LocalML
 
 ```K:\Project Folders\Machine Learning\Apps> cd LocalML```
+
+I provided two Windows commmand files to do the remaining two steps, we only need to do the first one once:
+
+```K:\Project Folders\Machine Learning\Apps\LocalML>install_packages.bat```
+
+We use the second one anytime we want to open and use our Jupyter Notebook:
+
+```K:\Project Folders\Machine Learning\Apps\LocalML>start_notebook.bat```
+
+
 
 
 
