@@ -36,19 +36,25 @@ Scroll to the bottom of the page and download the appropriate installer for Wind
 > [!IMPORTANT]
 > This may work with another v3.9.x or v3.10.x as well; however, it will not work with v3.11.x and later
 
-It's easist to perform the remaining steps in a Windows Commmand Window by pressing [Windows]+R then [ENTER] to run CMD
+# Create a Python VirtualEnv for the ML Tools
+
+I've included a simple Windows Command file to create a new virtual environment 'tf-env'
+
+It's easist to perform the remaining steps in a Commmand Window by pressing [Windows]+R then [ENTER] to run CMD
 
 Use CD to make your default directory the one you created above, mine is LocalML
 
-```K:\Project Folders\Machine Learning\Apps> cd LocalML```
+```C:\>cd LocalML```
 
-I provided two Windows commmand files to do the remaining two steps, we only need to do the first one once:
+Now run the included 'install_packages.bat' commmand file; we only need to do this one time:
 
-```K:\Project Folders\Machine Learning\Apps\LocalML>install_packages.bat```
+```C:\LocalML>install_packages.bat```
 
-We use the second one anytime we want to open and use our Jupyter Notebook:
+The second inluded file 'start_notebook.bat' we run anytime we want to open and use our Jupyter Notebook:
 
-```K:\Project Folders\Machine Learning\Apps\LocalML>start_notebook.bat```
+```C:\LocalML>start_notebook.bat```
+
+
 
 
 
