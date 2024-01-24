@@ -36,12 +36,13 @@ Scroll to the bottom of the page and download the appropriate installer for Wind
 After a successfull Python install, we will first create a new virtual environment for the ML Packages:
 
 It's easist to perform the remaining steps in a Windows Commmand Window by pressing [Windows]+R then [ENTER] to run CMD
-```
-C:\> cd LocalML
-C:\LocalML\>
-```
 
-![image](https://github.com/swolodkin-dev/Windows-Local-ML/assets/64492502/dde80f40-3b71-44ac-9a5a-a5459b1d8ead)
+Use CD to make your default directory the one you created above, mine is LocalML
+
+```K:\Project Folders\Machine Learning\Apps> cd LocalML```
+
+
+
 
 
 
