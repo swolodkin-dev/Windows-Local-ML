@@ -17,7 +17,7 @@ If you've completed this course, you can get your completed Jupyter Notebook fro
 You should download the TensorFlow2 notebook: "Notebook_Complete_TF2" (Just click on it and save it to a directory on your drive).
 
 > [!IMPORTANT]
-> Make sure you save the file with the above filename exactly, it will add the .zip extension***
+> Make sure you save the file with the above filename exactly, it will add the .zip extension
 
 Extract the contents of this zip arcive in the directory on your local disk where you will keep everything related to this notebook.
 For the purposes of this example, I created a directory called "Local ML" on my disk.
@@ -31,7 +31,18 @@ Scroll to the bottom of the page and download the appropriate installer for Wind
 > Windows installer (64-bit)	Windows	Recommended	e7062b85c3624af82079794729618eca	29235432	SIG
 
 > [!IMPORTANT]
-> This may work with another v3.9.x or v3.10.x as well; however, it will not work with v3.11.x and later***
+> This may work with another v3.9.x or v3.10.x as well; however, it will not work with v3.11.x and later
+
+After a successfull Python install, we will first create a new virtual environment for the ML Packages:
+
+It's easist to perform the remaining steps in a Windows Commmand Window by pressing [Windows]+R then [ENTER] to run CMD
+```
+C:\> cd LocalML
+C:\LocalML\>
+```
+
+![image](https://github.com/swolodkin-dev/Windows-Local-ML/assets/64492502/dde80f40-3b71-44ac-9a5a-a5459b1d8ead)
+
 
 
 
