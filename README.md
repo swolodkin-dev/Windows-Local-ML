@@ -1,4 +1,4 @@
-# Basic Python Machine Learning tools for your Windows PC
+# Basic Python Machine Learning Tools For Your PC
 This procedure will allow you to install, setup & configure all the software needed to run a basic Machine Learning environment on your Windows PC utilizing:
 ```
 Python
@@ -9,11 +9,10 @@ Matplotlib
 Jupyter
 ```
 # Coursera Basic Image Classification with Tensorflow
-In this specific example, I'll be opening the Jupyter Notebook from the "Basic Image Classification with Tensorflow" course at 
-https://www.coursera.org/learn/tensorflow-beginner-basic-image-classification/home/info
+In this specific example, I'll be opening and running the Jupyter Notebook from the [Basic Image Classification with Tensorflow][https://www.coursera.org/learn/tensorflow-beginner-basic-image-classification/home/info](url)).
 
 ## Download and Extract the Jupyter Notebook from the Course
-If you've completed this course, you can get your completed Jupyter Notebook from [Basic Image Classification with Tensorflow](https://www.coursera.org/learn/tensorflow-beginner-basic-image-classification/resources/GkBBf)
+If you've completed this course, you can get your completed Jupyter Notebook from [Basic Image Classification with Tensorflow]([https://www.coursera.org/learn/tensorflow-beginner-basic-image-classification/resources/GkBBf](url)).
 
 You should download the TensorFlow2 notebook: "Notebook_Complete_TF2" (Just click on it and save it to a directory on your drive).
 ***NOTE:  Make sure you save the file with the above filename exactly, it will add the .zip extension***
@@ -23,10 +22,10 @@ For the purposes of this example, I created a directory called "Local ML" on my 
 
 # Python Environment Preparation
 We must first download and install this specific Python version: 
-[python-3.9.13-amd64](https://www.python.org/downloads/release/python-3913/)]
+[python-3.9.13-amd64](https://www.python.org/downloads/release/python-3913/)
 
 Scroll to the bottom of the page and download the appropriate installer for Windows x64:
-Windows installer (64-bit)	Windows	Recommended	e7062b85c3624af82079794729618eca	29235432	SIG
+>Windows installer (64-bit)	Windows	Recommended	e7062b85c3624af82079794729618eca	29235432	SIG
 ***NOTE:  This may work with another v3.9.x or v3.10.x as well; however, it will not work with v3.11.x and later***
 
 
