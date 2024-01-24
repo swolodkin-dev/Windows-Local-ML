@@ -36,17 +36,17 @@ Scroll to the bottom of the page and download the appropriate installer for Wind
 > [!IMPORTANT]
 > This may work with another v3.9.x or v3.10.x as well; however, it will not work with v3.11.x and later
 
-# Create a Python VirtualEnv and Install the ML Tools Packages
+# Create a VirtualEnv and Install the ML Tools Packages
 
-I've included a simple Windows Command file to create a new virtual environment `tf-env`
+I've included a simple Windows Command file to create a new virtual environment `tf-env` and install all the basic ML packages.
 
-It's easist to perform the remaining steps in a Commmand Window by pressing [Windows]+R then [ENTER] to run CMD
+It's easist to perform the remaining steps in a Command Window by pressing [Windows]+R then [ENTER] to run `CMD`
 
 Use CD to make your default directory the one you created above, mine is `LocalML`
 
 ```C:\>cd LocalML```
 
-Now run the included `install_packages.bat` commmand file; we only need to do this one time:
+Now run the included `install_packages.bat` command file; we only need to do this one time:
 
 ```C:\LocalML>install_packages.bat```
 
@@ -62,6 +62,7 @@ The second inluded file `start_notebook.bat` we run anytime we want to open and 
 This will open the Jupyter environment in your default browser and display the contents of your default directory.
 
 In our example, we can now open and run the `TensorFlow Beginner - Basic Image Classification.ipynb` notebook.
+
 
 
 
